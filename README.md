@@ -7,7 +7,7 @@ Since the usernames are repeated for each item belonging to that user, I fed the
 
 Finally, after all of the folders have been created, another for loop iterates through the original dataframe and moves the files into the appropriate folder based on the username associated with the file and writes a success message to the log containing the name of the file and location it was moved to. If the file cannot be located an except block writes an error to the log and console and moves onto the next row within the dataframe.
 
-I was able to make the program run successfully, creating over xxx new folders and moving over xxx files which would have taken a human an inconceivable amount of time
+I was able to make the program run successfully, creating over 1,000 new folders and moving over 16,000 files, which would have taken a human an inconceivable amount of time to accomplish.
 
 I setup a little demo Excel document and some fake files for demonstration purposes. Please use the following steps to try out the code:
 
